@@ -1,0 +1,260 @@
+body {
+  background-color: rgba(92, 106, 105, 0.87);
+}
+video {
+  top: -2%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0%;
+}
+h1 {
+  top: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(245, 245, 219);
+  text-align: center;
+  text-decoration: underline;
+  position: absolute;
+}
+h2 {
+  top: 21%;
+  color: rgb(245, 245, 219);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1cm;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 2ch;
+}
+.box1 {
+  padding: 1em;
+  border: 0.2em solid rgb(42, 58, 39);
+  width: 80%;
+  background-color: rgb(245, 245, 219);
+  text-align: center;
+}
+.box {
+  padding: 1em;
+  border: 0.2em solid rgb(42, 58, 39);
+  width: 90%;
+  background-color: rgb(245, 245, 219);
+  text-align: center;
+}
+.bloc1 {
+  left: 55%;
+  position: absolute;
+  top: 20%;
+}
+.bloc2 {
+  position: absolute;
+  right: 55%;
+  top: 20%;
+}
+/*
+.title2 {
+  display: none;
+}
+*/
+
+@media all and (max-width: 1000px) {
+  h2 {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+  video {
+    display: none;
+  }
+  .bloc1 {
+    position: relative;
+    left: 15%;
+    width: 75%;
+  }
+  .bloc2 {
+    position: relative;
+    left: 15%;
+    width: 67%;
+  }
+}
+
+@media all and (min-width: 1001px) {
+  .bloc1 {
+    font-size: 12px;
+  }
+  .bloc2 {
+    font-size: 12px;
+    left: 15%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 32px;
+    left: 25%;
+  }
+}
+@media all and (min-width: 1300px) {
+  .bloc1 {
+    font-size: 14px;
+  }
+  .bloc2 {
+    font-size: 14px;
+    left: 15%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 31px;
+    left: 30%;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .bloc1 {
+    font-size: 15px;
+    top: 15%;
+  }
+  .bloc2 {
+    font-size: 15px;
+    left: 10.5%;
+    top: 15%;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 38px;
+    right: 25%;
+  }
+}
+@media all and (min-width: 1900px) {
+  .bloc1 {
+    font-size: 18px;
+    top: 15%;
+  }
+  .bloc2 {
+    font-size: 18px;
+    left: 10.5%;
+    top: 15%;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h1 {
+    font-size: 40px;
+    right: 30%;
+  }
+}
+
+@media all and (min-width: 2400px) {
+  .bloc1 {
+    font-size: 25px;
+    top: 15%;
+  }
+  .bloc2 {
+    font-size: 25px;
+    left: 14%;
+    top: 15%;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h1 {
+    font-size: 55px;
+    left: 28%;
+  }
+}
+
+@media all and (min-width: 2900px) {
+  .bloc1 {
+    font-size: 28px;
+    top: 10%;
+  }
+  .bloc2 {
+    font-size: 28px;
+    left: 8%;
+    top: 10%;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  h1 {
+    display: none;
+  }
+}
+
+@media all and (min-width: 3400px) {
+  .bloc1 {
+    font-size: 30px;
+    top: 5%;
+  }
+  .bloc2 {
+    font-size: 30px;
+    left: 18%;
+    top: 5%;
+  }
+  h2 {
+    font-size: 66px;
+  }
+  /*
+  .title2 {
+    display: block;
+    text-align: center;
+  }
+  */
+}
+
+@media all and (min-width: 3800px) {
+  .bloc1 {
+    font-size: 45px;
+    top: 10%;
+  }
+  .bloc2 {
+    font-size: 45px;
+    left: 15%;
+    top: 10%;
+  }
+  h2 {
+    font-size: 90px;
+  }
+  /*
+  h1 {
+    font-size: 90px;
+    left: 25%;
+  }
+  */
+  /*
+  .title2 {
+    display: block;
+    text-align: center;
+  }
+  */
+}
+
+@media all and (min-width: 4400px) {
+  .bloc1 {
+    font-size: 55px;
+    top: 2%;
+  }
+  .bloc2 {
+    font-size: 55px;
+    left: 25%;
+    top: 2%;
+  }
+  h2 {
+    font-size: 109px;
+  }
+  /*
+  h1 {
+    font-size: 120px;
+    left: 25%;
+  }
+  */
+}

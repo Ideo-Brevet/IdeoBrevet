@@ -1,0 +1,194 @@
+body {
+  background-color: rgba(92, 106, 105, 0.87);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(42, 58, 39);
+  text-align: center;
+  text-decoration: underline;
+}
+.Line-height {
+  line-height: 3em;
+}
+.Img {
+  width: 10%;
+  top: 0.1%;
+  left: 0.1%;
+  position: absolute;
+  border-radius: 5px;
+}
+h4 {
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(8, 17, 6);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p {
+  text-align: justify;
+}
+.box1 {
+  padding: 1%;
+  border: 0.2em solid rgb(42, 58, 39);
+  width: 50%;
+  background-color: rgba(15, 32, 18, 0.481);
+  height: 80%;
+  margin-bottom: 5%;
+}
+
+.box2 {
+  padding: 1%;
+  border: 0.2em solid rgb(42, 58, 39);
+  width: 80%;
+  background-color: rgba(15, 32, 18, 0.481);
+  height: 80%;
+}
+.bloc1 {
+  position: absolute;
+  left: 3%;
+}
+.bloc2 {
+  position: absolute;
+  right: 0%;
+}
+@media all and (max-width: 800px) {
+  .Img {
+    display: none;
+  }
+}
+@media all and (max-width: 1300px) {
+  .box1 {
+    width: 70%;
+  }
+
+  .box2 {
+    width: 70%;
+  }
+  .bloc1 {
+    position: relative;
+    left: 15%;
+  }
+  .bloc2 {
+    position: relative;
+    left: 15%;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .bloc1 {
+    font-size: 18px;
+    right: 10%;
+    height: 80%;
+  }
+  .bloc2 {
+    font-size: 18px;
+    width: 50%;
+    left: 55%;
+    height: 80.6%;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .bloc1 {
+    font-size: 20px;
+    right: 10%;
+    height: 170%;
+  }
+  .bloc2 {
+    font-size: 20px;
+    width: 50%;
+    left: 55%;
+    height: 171.5%;
+  }
+}
+@media all and (min-width: 2000px) {
+  .bloc1 {
+    font-size: 25px;
+    left: 8%;
+
+  }
+  .bloc2 {
+    font-size: 25px;
+    right: 8%;
+   
+  
+  }
+}
+@media all and (min-width: 2300px) {
+  .bloc1 {
+    font-size: 27px;
+    left: 9%;
+    width: 70%;
+   
+  }
+  .bloc2 {
+    font-size: 27px;
+    right: 9%;
+    width: 45%;
+  
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 2600px) {
+  .bloc1 {
+    font-size: 30px;
+    left: 10%;
+   
+  }
+  .bloc2 {
+    font-size: 30px;
+    right: 10%;
+   
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 3000px) {
+  .bloc1 {
+    font-size: 32px;
+    left: 11%;
+   
+  }
+  .bloc2 {
+    font-size: 32px;
+    right: 11%;
+   
+  }
+  h1 {
+    font-size: 45px;
+  }
+}
+@media all and (min-width: 3500px) {
+  .bloc1 {
+    font-size: 35px;
+    left: 12%;
+
+  }
+  .bloc2 {
+    font-size: 35px;
+    right: 12%;
+
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 4000px) {
+  .bloc1 {
+    font-size: 40px;
+    left: 13%;
+
+  }
+  .bloc2 {
+    font-size: 40px;
+    right: 13%;
+
+  }
+  h1 {
+    font-size: 55px;
+  }
+}

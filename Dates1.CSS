@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(204, 225, 225);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(42, 58, 39);
+  text-align: center;
+  text-decoration: underline;
+}
+.Line-height {
+  line-height: 3em;
+}
+.Img {
+  width: 10%;
+  top: 0.1%;
+  left: 0.1%;
+  position: absolute;
+  border-radius: 5px;
+}
+h4 {
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(8, 17, 6);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+p {
+  text-align: justify;
+}
+.box1 {
+  padding: 1%;
+  border: 0.2em solid rgb(42, 58, 39);
+  width: 70%;
+  background-color: rgba(15, 32, 18, 0.481);
+  height: 80%;
+  margin-bottom: 5%;
+}
+
+.bloc1 {
+  position: absolute;
+  left: 20%;
+}
+
+@media all and (min-width: 1300px) {
+  .bloc1 {
+    font-size: 18px;
+    height: auto;
+    position: absolute;
+    left: 21%;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .bloc1 {
+    font-size: 22px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+}
+@media all and (min-width: 2000px) {
+  .bloc1 {
+    font-size: 25px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+}
+@media all and (min-width: 2300px) {
+  .bloc1 {
+    font-size: 27px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 2600px) {
+  .bloc1 {
+    font-size: 30px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 3000px) {
+  .bloc1 {
+    font-size: 32px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+}
+@media all and (min-width: 3500px) {
+  .bloc1 {
+    font-size: 35px;
+    height: auto;
+    position: absolute;
+    left: 26%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 4000px) {
+  .bloc1 {
+    font-size: 45px;
+    height: auto;
+    position: absolute;
+    left: 25%;
+  }
+  h1 {
+    font-size: 72px;
+  }
+}
